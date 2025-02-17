@@ -1,0 +1,1 @@
+This error occurs when using the `useEffect` hook in React Native with a function that modifies the component's state. The problem arises when the function within `useEffect` attempts to update the state asynchronously, causing unexpected behavior. The state might not reflect the changes immediately or might trigger unnecessary re-renders.
